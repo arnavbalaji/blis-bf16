@@ -1,4 +1,4 @@
-## Convenience Makefile for the bf16 sandbox driver.
+## Makefile for the bf16 sandbox driver.
 ##
 ## Usage (from BLIS top-level):
 ##   make -C sandbox/bf16 driver
