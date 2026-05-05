@@ -3,7 +3,7 @@
 We **optionally replace BLIS `sgemm`** with a path that **packs float32 A/B to BF16** and runs a **BF16 microkernel** (accumulating into float32 C).
 
 ### Build + run
-First clone the flame/blis repository. 
+First clone the flame/blis repository. Then place this directory in the sandbox directory. Then rename it from "blis-bf16" to just "bf16"
 
 Then From the BLIS top-level directory:
 
